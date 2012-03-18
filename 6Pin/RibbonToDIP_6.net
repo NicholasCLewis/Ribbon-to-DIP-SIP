@@ -1,0 +1,22 @@
+# EESchema Netlist Version 1.1 created  12/11/2011 11:31:43 PM
+(
+ ( /4EE5A7B7 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 N-000006 )
+  ( 2 N-000005 )
+  ( 3 N-000004 )
+ )
+ ( /4EE5A7B2 PIN_ARRAY_3X1 K2 CONN_3
+  ( 1 N-000003 )
+  ( 2 N-000002 )
+  ( 3 N-000001 )
+ )
+ ( /4EE5A7AA PIN_ARRAY_3X2 P1 CONN_3X2
+  ( 1 N-000006 )
+  ( 2 N-000003 )
+  ( 3 N-000005 )
+  ( 4 N-000002 )
+  ( 5 N-000004 )
+  ( 6 N-000001 )
+ )
+)
+*

@@ -1,0 +1,113 @@
+EESchema Schematic File Version 2  date 12/11/2011 10:53:25 PM
+LIBS:power
+LIBS:arduino_shieldsNCL
+LIBS:ATmega8
+LIBS:atmega16
+LIBS:connNCL
+LIBS:deviceNCL
+LIBS:displayNCL
+LIBS:linearNCL
+LIBS:regulNCL
+LIBS:SDadapter
+LIBS:specialNCL
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:opto
+LIBS:philips
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:SymbolsSimilarEN60617+oldDIN617
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "12 dec 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5200 2350 5300 2350
+Wire Wire Line
+	5200 2550 5300 2550
+Wire Wire Line
+	5200 2750 5300 2750
+Wire Wire Line
+	4400 2650 4300 2650
+Wire Wire Line
+	4400 2450 4300 2450
+Wire Wire Line
+	4300 2350 4400 2350
+Wire Wire Line
+	4300 2550 4400 2550
+Wire Wire Line
+	4300 2750 4400 2750
+Wire Wire Line
+	5300 2650 5200 2650
+Wire Wire Line
+	5300 2450 5200 2450
+$Comp
+L CONN_5 P1
+U 1 1 4EE5A4AC
+P 3900 2550
+F 0 "P1" V 3850 2550 50  0000 C CNN
+F 1 "CONN_5" V 3950 2550 50  0000 C CNN
+	1    3900 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P3
+U 1 1 4EE5A4A7
+P 5700 2550
+F 0 "P3" V 5650 2550 50  0000 C CNN
+F 1 "CONN_5" V 5750 2550 50  0000 C CNN
+	1    5700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5X2 P2
+U 1 1 4EE5A49F
+P 4800 2550
+F 0 "P2" H 4800 2850 60  0000 C CNN
+F 1 "CONN_5X2" V 4800 2550 50  0000 C CNN
+	1    4800 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

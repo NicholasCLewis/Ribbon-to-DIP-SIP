@@ -1,0 +1,375 @@
+PCBNEW-BOARD Version 1 date 3/18/2012 12:17:29 PM
+
+# Created by Pcbnew(2012-01-19 BZR 3256)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 10
+NoConn 0
+Di 26279 19060 31721 24740
+Ndraw 4
+Ntrack 10
+Nzone 0
+BoardThickness 630
+Nmodule 3
+Nnets 11
+$EndGENERAL
+
+$SHEETDESCR
+Sheet User 6000 5000
+Title "10 Pin Ribbon Cable to DIP"
+Date "18 mar 2012"
+Rev "0.1"
+Comp "Nicholas C Lewis"
+Comment1 "Creative Commons Attribution-ShareAlike 3.0"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 80
+TrackWidthList 160
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 120
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 400
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "N-000001"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "N-000002"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "N-000003"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "N-000004"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "N-000005"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "N-000006"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 7 "N-000007"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 8 "N-000008"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 9 "N-000009"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 10 "N-000010"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "N-000001"
+AddNet "N-000002"
+AddNet "N-000003"
+AddNet "N-000004"
+AddNet "N-000005"
+AddNet "N-000006"
+AddNet "N-000007"
+AddNet "N-000008"
+AddNet "N-000009"
+AddNet "N-000010"
+$EndNCLASS
+$MODULE PIN_ARRAY_5X1
+Po 29000 20400 0 15 4F1A57D8 4EE5A578 ~~
+Li PIN_ARRAY_5X1
+Cd 0.1" standard headers 5 X 1 pins
+Kw CONN
+Sc 4EE5A578
+AR /4EE5A4A7
+Op 0 0 0
+T0 0 -1000 400 400 0 80 N I 21 N "P3"
+T1 0 1000 400 400 0 80 N I 21 N "CONN_5"
+DS -2500 -500 2500 -500 120 21
+DS 2500 -500 2500 500 120 21
+DS 2500 500 -2500 500 120 21
+DS -2500 500 -2500 -500 120 21
+$PAD
+Sh "1" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 5 "N-000005"
+Po -2000 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 4 "N-000004"
+Po -1000 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 3 "N-000003"
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000002"
+Po 1000 0
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 1 "N-000001"
+Po 2000 0
+$EndPAD
+$SHAPE3D
+Na "PIN_ARRAY/pins_array_5X1.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5X1
+$MODULE PIN_ARRAY_5X2
+Po 29000 21900 0 15 4EE5AEE5 4EE5A579 ~~
+Li PIN_ARRAY_5X2
+Cd 0.1" standard headers 2 X 5 pins
+Kw CONN
+Sc 4EE5A579
+AR /4EE5A49F
+Op 0 0 0
+T0 250 -1500 400 400 0 80 N I 21 N "P2"
+T1 0 -1500 400 400 0 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 10 "N-000010"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 5 "N-000005"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 9 "N-000009"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 4 "N-000004"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 8 "N-000008"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 3 "N-000003"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 7 "N-000007"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000002"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 6 "N-000006"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 1 "N-000001"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "PIN_ARRAY/pins_array_5X2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5X2
+$MODULE PIN_ARRAY_5X1
+Po 29000 23400 0 15 4F1A57E7 4EE5A576 ~~
+Li PIN_ARRAY_5X1
+Cd 0.1" standard headers 5 X 1 pins
+Kw CONN
+Sc 4EE5A576
+AR /4EE5A4AC
+Op 0 0 0
+T0 0 -1000 400 400 0 80 N I 21 N "P1"
+T1 0 1000 400 400 0 80 N I 21 N "CONN_5"
+DS -1500 -500 -1500 500 120 21
+DS -2500 -500 -2500 500 120 21
+DS 2500 500 2500 -500 120 21
+DS -2500 -500 2500 -500 120 21
+DS 2500 500 -2500 500 120 21
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 10 "N-000010"
+Po -2000 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 9 "N-000009"
+Po -1000 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 8 "N-000008"
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 7 "N-000007"
+Po 1000 0
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 6 "N-000006"
+Po 2000 0
+$EndPAD
+$SHAPE3D
+Na "PIN_ARRAY/pins_array_5X1.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5X1
+$DRAWSEGMENT
+Po 0 26500 19900 26500 23900 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 31500 19900 26500 19900 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 31500 23900 31500 19900 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 26500 23900 31500 23900 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$TRACK
+Po 0 31000 21400 31000 20400 160 -1
+De 0 0 1 0 C00C00
+Po 0 30000 21400 30000 20400 160 -1
+De 0 0 2 0 C00C00
+Po 0 29000 21400 29000 20400 160 -1
+De 0 0 3 0 C00C00
+Po 0 28000 21400 28000 20400 160 -1
+De 0 0 4 0 C00C00
+Po 0 27000 21400 27000 20400 160 -1
+De 0 0 5 0 C00C00
+Po 0 31000 22400 31000 23400 160 -1
+De 0 0 6 0 C00C00
+Po 0 30000 22400 30000 23400 160 -1
+De 0 0 7 0 C00C00
+Po 0 29000 22400 29000 23400 160 -1
+De 0 0 8 0 C00C00
+Po 0 28000 22400 28000 23400 160 -1
+De 0 0 9 0 C00C00
+Po 0 27000 22400 27000 23400 160 -1
+De 0 0 10 0 C00C00
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
